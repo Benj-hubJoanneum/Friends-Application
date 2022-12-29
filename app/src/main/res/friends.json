@@ -1,0 +1,94 @@
+[
+  {
+    "attributes": [
+      {
+        "content": "31.12.1993",
+        "iconUrl": "drawable://2131230806",
+        "title": "Birthday:"
+      },
+      {
+        "content": "Blau",
+        "iconUrl": "drawable://2131230806",
+        "title": "Lieblingsfarbe:"
+      },
+      {
+        "content": "Filomena!",
+        "iconUrl": "drawable://2131230806",
+        "title": "mein Haustier:"
+      },
+      {
+        "content": "05.07.2010",
+        "iconUrl": "drawable://2131230806",
+        "title": "wir kennen uns seid:"
+      }
+    ],
+    "imgURL": "drawable://2131230939",
+    "messages": [
+      {
+        "content": "I glaub du hast den Kontest für bestes Foto gewonnen :)",
+        "iconUrl": "drawable://2131230895"
+      }
+    ],
+    "name": "Stella"
+  },
+  {
+    "imgURL": "drawable://2131230893",
+    "name": "ipsum"
+  },
+  {
+    "imgURL": "drawable://2131230894",
+    "name": "dolor"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "sit"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "lorem2"
+  },
+  {
+    "imgURL": "drawable://2131230893",
+    "name": "ipsum2"
+  },
+  {
+    "imgURL": "drawable://2131230894",
+    "name": "dolor2"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "sit2"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "lorem3"
+  },
+  {
+    "imgURL": "drawable://2131230893",
+    "name": "ipsum3"
+  },
+  {
+    "imgURL": "drawable://2131230894",
+    "name": "dolor3"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "sit3"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "lorem4"
+  },
+  {
+    "imgURL": "drawable://2131230893",
+    "name": "ipsum4"
+  },
+  {
+    "imgURL": "drawable://2131230894",
+    "name": "dolor4"
+  },
+  {
+    "imgURL": "drawable://2131230938",
+    "name": "sit4"
+  }
+]

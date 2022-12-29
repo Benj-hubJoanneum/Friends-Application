@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.friends_dasfreundebuch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+12        <provider
+12-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+13            android:name="com.android.car.ui.plugin.PluginNameProvider"
+13-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+14            android:authorities="com.android.car.ui.plugin" />
+14-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+15    </queries>
+16
+17    <application
+17-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:5:5-28:19
+18        android:allowBackup="true"
+18-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\lampr\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher_friends"
+23-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:9:9-51
+24        android:label="@string/app_name"
+24-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_friends_round"
+25-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:11:9-62
+26        android:supportsRtl="true"
+26-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.FriendsDasFreundebuch" >
+28-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:13:9-59
+29        <activity
+29-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:15:9-24:20
+30            android:name="com.example.friends_dasfreundebuch.MainActivity"
+30-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:16:13-41
+31            android:exported="true"
+31-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:17:13-36
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:18:13-55
+33            <intent-filter>
+33-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:19:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:20:17-69
+34-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:22:17-77
+36-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.friends_dasfreundebuch.FriendProfile" />
+39-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:25:9-51
+39-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:25:19-48
+40        <activity android:name="com.example.friends_dasfreundebuch.OwnProfile" />
+40-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:26:9-48
+40-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:26:19-45
+41        <activity android:name="com.example.friends_dasfreundebuch.OwnEditProfile" />
+41-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:27:9-51
+41-->C:\FRIENDS\release\Neuer Ordner\Friends-DasFreundebuch\app\src\main\AndroidManifest.xml:27:19-49
+42
+43        <provider
+43-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+44            android:name="com.android.car.ui.core.CarUiInstaller"
+44-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+45            android:authorities="com.example.friends_dasfreundebuch.CarUiInstaller"
+45-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+46            android:directBootAware="true"
+46-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+47            android:exported="false"
+47-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+48            android:process="@string/car_ui_installer_process_name" />
+48-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+49        <provider
+49-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+50            android:name="com.android.car.ui.core.SearchResultsProvider"
+50-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+51            android:authorities="com.example.friends_dasfreundebuch.SearchResultsProvider"
+51-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+52            android:exported="true"
+52-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+53            android:process="@string/car_ui_installer_process_name"
+53-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+54            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+54-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\lampr\.gradle\caches\transforms-3\6c8707ba05d180750c5d25ed03301527\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+55        <provider
+55-->[com.squareup.picasso:picasso:2.71828] C:\Users\lampr\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+56            android:name="com.squareup.picasso.PicassoProvider"
+56-->[com.squareup.picasso:picasso:2.71828] C:\Users\lampr\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+57            android:authorities="com.example.friends_dasfreundebuch.com.squareup.picasso"
+57-->[com.squareup.picasso:picasso:2.71828] C:\Users\lampr\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+58            android:exported="false" />
+58-->[com.squareup.picasso:picasso:2.71828] C:\Users\lampr\.gradle\caches\transforms-3\9cdaa4058fdfd0b75a13520db891b7b0\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.friends_dasfreundebuch.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lampr\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lampr\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lampr\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lampr\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>

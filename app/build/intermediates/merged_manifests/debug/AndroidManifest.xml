@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.friends_dasfreundebuch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <queries>
+        <provider
+            android:name="com.android.car.ui.plugin.PluginNameProvider"
+            android:authorities="com.android.car.ui.plugin" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_friends"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_friends_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.FriendsDasFreundebuch" >
+        <activity
+            android:name="com.example.friends_dasfreundebuch.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.friends_dasfreundebuch.FriendProfile" />
+        <activity android:name="com.example.friends_dasfreundebuch.OwnProfile" />
+        <activity android:name="com.example.friends_dasfreundebuch.OwnEditProfile" />
+
+        <provider
+            android:name="com.android.car.ui.core.CarUiInstaller"
+            android:authorities="com.example.friends_dasfreundebuch.CarUiInstaller"
+            android:directBootAware="true"
+            android:exported="false"
+            android:process="@string/car_ui_installer_process_name" />
+        <provider
+            android:name="com.android.car.ui.core.SearchResultsProvider"
+            android:authorities="com.example.friends_dasfreundebuch.SearchResultsProvider"
+            android:exported="true"
+            android:process="@string/car_ui_installer_process_name"
+            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.friends_dasfreundebuch.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.friends_dasfreundebuch.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
